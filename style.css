@@ -1,0 +1,222 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #050A24;
+    color:white;
+}
+#container{
+    margin:20px 50px;
+}
+/* ---------------------------- */
+#top-bar{
+    display:flex;
+    justify-content: space-between;
+}
+#top-bar .logo h1{
+    color:red;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:3rem;
+}
+.btn{
+    display:flex;
+    font-family: 'Noto Serif', serif;
+}
+.icon1{
+    margin-right:7.5px;
+}
+.icon2{
+    margin-left:5px;
+}
+.box{
+    height:fit-content;
+    width:fit-content;
+    border:0.5px solid white;
+    border-radius:2.5px;
+    padding:5px 15px;
+    margin-right:10px;
+}
+.red-btn{
+    height:max-content;
+    color:white;
+    background:red;
+    text-decoration: none;
+    padding:5px 10px;
+    border-radius:2.5px;
+}
+.red-btn:hover{
+    background-color:rgb(138, 17, 17);
+}
+/* ------------------------------------------ */
+#content{
+    background: linear-gradient(70deg, rgba(0,0,0,0.7) 60%, rgba(117, 41, 178,0.5),rgba(237, 29, 29,0.9));
+    width:100%;
+    height:600px;
+    position: relative;
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+}
+#content::before{
+    content:'';
+    position: absolute;
+    height:100%;
+    width:100%;
+    background:url('./images/p1.jpg') no-repeat center center/cover;
+    z-index:-1;
+}
+.container1{
+    width:70%;
+    margin:75px 50px;
+}
+#content h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size:5rem;
+}
+.para1{
+    font-size:1.2rem;
+    font-family: 'Noto Serif', serif;  
+    font-weight:900px; 
+}
+.para2{
+    font-size:1.2rem;
+}
+.email{
+    background:rgba(0,0,0,0.5);
+    border:0.5px solid white;
+    height:50px;
+    width:200px;
+    border-radius:2.5px;
+    padding-left:10px;
+    font-size:1rem;
+    margin:20px 10px 0px 0px;
+    color:white;
+}
+.big{
+    font-size:1.75rem;
+    font-weight:900px;
+}
+/* ---------------------------------- */
+.box2{
+    margin-top:20px;
+    background: linear-gradient(135deg, rgba(0,0,0,0.1),rgba(89, 57, 114, 0.5), rgb(207, 96, 96));
+    border-radius:20px;
+}
+.first-row{
+    display: flex;
+}
+.second-row{
+    display: flex;
+}
+.third-row{
+    display: flex;
+}
+.fourth-row{
+    display: flex;
+}
+.txt{
+    width:50%;
+    align-self: center;
+    margin:20px 100px;
+}
+.txt h3{
+    font-size: 3rem;
+    font-weight:900;
+    font-family: 'Fira Sans', sans-serif;
+}
+.txt p{
+    font-size: 1rem;
+    line-height:1.82rem;
+    margin-top:20px;
+    font-weight:900;
+    font-family: 'Noto Serif', serif;  
+}
+.img{
+    width:50%;
+}
+.img img{
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+}
+.pic1,.pic3{
+    margin-right:100px;
+}
+.pic2,.pic4{
+    margin-left:100px;
+}
+hr{
+    height:5px;
+    background-color: rgb(75, 75, 75,0.1);
+    margin:0px 100px;
+}
+/* ------------------------------------ */
+#container2{
+    margin:50px 100px;
+    display: flex;
+    flex-direction: column;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+}
+.faq h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+    margin-bottom:20px;
+}
+.drop-down{
+    display: flex;
+    flex-direction: column;
+}
+.case{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+    background-color:#132144;
+    padding:20px 20px;
+}
+.case p{
+    font-size:1.25rem;
+    font-family: 'Noto Serif', serif;  
+}
+.drop-down a{
+    text-decoration: none;
+    color:white;
+}
+/* .drop-down .case :hover{
+    background-color: #263864;
+} */
+.start p{
+    margin:10px 0px;
+    font-size:1.5rem;
+    font-family: 'Noto Serif', serif;  
+}
+.copyright{
+    margin-top:20px;
+}
+.copyright>p{
+    margin-top:100px;
+    color:grey;
+}
+.copyright span{
+    margin-left:5px;
+    text-decoration: underline;
+}
+.about{
+    margin-top:50px;
+    display: grid;
+    grid-gap:10px;
+    grid-template-rows:repeat(4,1fr);
+    grid-template-columns:repeat(4,1fr) ;
+}
+.about a{
+    color:grey;
+}
+.mar-btm{
+    margin-top:50px;
+}
